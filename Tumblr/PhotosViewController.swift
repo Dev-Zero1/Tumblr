@@ -56,6 +56,8 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
         
 
         self.tableView.reloadData()
+        self.refreshControl.endRefreshing()
+        
     }
     }
     
