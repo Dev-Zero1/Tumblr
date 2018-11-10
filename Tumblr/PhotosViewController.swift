@@ -43,24 +43,23 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
     let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         
     let task = session.dataTask(with: request){( data, response, error) in
-        
-    if let error = error {
-    print(error.localizedDescription)
-        
-    }else if let data = data {
+        if let error = error {
+        print(error.localizedDescription)
+            
+        }else if let data = data {
         
       let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+            
+        //get the dictionary and parse it out into categories
        let responses = dataDictionary["response"] as! [String: Any]
        self.posts = responses["posts"] as! [[String: Any]]
        let status = dataDictionary["meta"] as! [String: Any]
         
-
+            
         self.tableView.reloadData()
+        }
         self.refreshControl.endRefreshing()
-        
-    }
-    }
-    
+        }
     task.resume()
     
     }
@@ -72,7 +71,8 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        let cell = tableView.dequeueReusableCell(withIdentifier: "photoCellTableViewCell", for: indexPath) as! photoCellTableViewCell
         let post = posts[indexPath.row]
-       // let photos = post["photos"] as! [[String: Any]]
+        
+      // let photos = post["photos"] as! [[String: Any]]
         
             // photos is NOT nil, we can use it!
         if let photos = post["photos"] as? [[String: Any]]{
@@ -83,9 +83,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
             let url = URL(string: urlString)
             
             cell.img.af_setImage(withURL: url!)
-        }else{
-            
-            print("!\n")
         }
         
         return cell

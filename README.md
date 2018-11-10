@@ -2,7 +2,7 @@
 
 **Tumblr** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## User Stories
 
@@ -23,8 +23,8 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. More thorough Lab manual, parts are vague and leave you to "fill in the blanks" which would be fine if we had a year of swift under our belts
+2. Better ways to troubleshoot logic errors &  GUI
 
 ## Video Walkthrough
 
@@ -36,7 +36,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Unable to render photos, troubleshooting the request and display was most of the work!
+Troubleshooting skills would be a helpful module to incorporate for future students. Things like testing output/connections/requests. Validating logic.
 
 ## License
 
