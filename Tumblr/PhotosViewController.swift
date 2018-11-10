@@ -15,6 +15,8 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
     var posts: [[String: Any]] = []
     var refreshControl: UIRefreshControl!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
@@ -47,7 +49,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
         
     }else if let data = data {
         
-        let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+      let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
        let responses = dataDictionary["response"] as! [String: Any]
        self.posts = responses["posts"] as! [[String: Any]]
        let status = dataDictionary["meta"] as! [String: Any]
@@ -79,6 +81,9 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
             let url = URL(string: urlString)
             
             cell.img.af_setImage(withURL: url!)
+        }else{
+            
+            print("!\n")
         }
         
         return cell
