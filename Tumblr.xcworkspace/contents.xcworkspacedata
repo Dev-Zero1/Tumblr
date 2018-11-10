@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/administrator/Desktop/Tumblr/Tumblr/PhotosViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:Tumblr.xcodeproj">
    </FileRef>
    <FileRef
