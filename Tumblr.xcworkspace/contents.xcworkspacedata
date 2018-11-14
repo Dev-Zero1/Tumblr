@@ -1,9 +1,355 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:/Users/administrator/Desktop/Tumblr/Tumblr/PhotosViewController.swift">
-   </FileRef>
+   <Group
+      location = "group:.."
+      name = "..">
+      <Group
+         location = "group:Tumblr"
+         name = "Tumblr">
+         <FileRef
+            location = "group:Tumblr.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Tumblr"
+            name = "Tumblr">
+            <Group
+               location = "group:Assets.xcassets"
+               name = "Assets.xcassets">
+               <Group
+                  location = "group:AppIcon.appiconset"
+                  name = "AppIcon.appiconset">
+                  <FileRef
+                     location = "group:Contents.json">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:LaunchScreen.storyboard">
+               </FileRef>
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:PhotosViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AppDelegate.swift">
+            </FileRef>
+            <FileRef
+               location = "group:photoCellTableViewCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:README.md">
+         </FileRef>
+         <Group
+            location = "group:Pods"
+            name = "Pods">
+            <FileRef
+               location = "group:Pods.xcodeproj">
+            </FileRef>
+            <Group
+               location = "group:AlamofireImage"
+               name = "AlamofireImage">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:Source"
+                  name = "Source">
+                  <FileRef
+                     location = "group:ImageCache.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImage+AlamofireImage.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFIError.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Image.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIButton+AlamofireImage.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImageDownloader.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImageView+AlamofireImage.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Request+AlamofireImage.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ImageFilter.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Alamofire"
+               name = "Alamofire">
+               <FileRef
+                  location = "group:LICENSE">
+               </FileRef>
+               <Group
+                  location = "group:Source"
+                  name = "Source">
+                  <FileRef
+                     location = "group:TaskDelegate.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MultipartFormData.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NetworkReachabilityManager.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Timeline.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DispatchQueue+Alamofire.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Result.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ParameterEncoding.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AFError.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Validation.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Notifications.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Response.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Alamofire.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Request.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SessionManager.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ResponseSerialization.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ServerTrustPolicy.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SessionDelegate.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:README.md">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Target Support Files"
+               name = "Target Support Files">
+               <Group
+                  location = "group:AlamofireImage"
+                  name = "AlamofireImage">
+                  <FileRef
+                     location = "group:AlamofireImage-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AlamofireImage.modulemap">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AlamofireImage.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AlamofireImage-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AlamofireImage-prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Pods-TumblrUITests"
+                  name = "Pods-TumblrUITests">
+                  <FileRef
+                     location = "group:Pods-TumblrUITests.debug.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrUITests.release.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrUITests.modulemap">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrUITests-frameworks.sh">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrUITests-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrUITests-acknowledgements.markdown">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrUITests-acknowledgements.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrUITests-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrUITests-resources.sh">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Alamofire"
+                  name = "Alamofire">
+                  <FileRef
+                     location = "group:Alamofire-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Alamofire.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Alamofire-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Alamofire.modulemap">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Alamofire-prefix.pch">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Pods-TumblrTests"
+                  name = "Pods-TumblrTests">
+                  <FileRef
+                     location = "group:Pods-TumblrTests.debug.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrTests-acknowledgements.markdown">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrTests.release.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrTests.modulemap">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrTests-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrTests-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrTests-resources.sh">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrTests-acknowledgements.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-TumblrTests-frameworks.sh">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Pods-Tumblr"
+                  name = "Pods-Tumblr">
+                  <FileRef
+                     location = "group:Pods-Tumblr.debug.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-Tumblr-umbrella.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-Tumblr.modulemap">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-Tumblr-acknowledgements.markdown">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-Tumblr-resources.sh">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-Tumblr-dummy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-Tumblr-acknowledgements.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Info.plist">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-Tumblr.release.xcconfig">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Pods-Tumblr-frameworks.sh">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:Manifest.lock">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:TumblrUITests"
+            name = "TumblrUITests">
+            <FileRef
+               location = "group:TumblrUITests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Podfile">
+         </FileRef>
+         <Group
+            location = "group:TumblrTests"
+            name = "TumblrTests">
+            <FileRef
+               location = "group:TumblrTests.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Info.plist">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Podfile.lock">
+         </FileRef>
+         <FileRef
+            location = "group:Tumblr.xcworkspace">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:Tumblr.xcodeproj">
    </FileRef>
