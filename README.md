@@ -95,7 +95,8 @@ Working with virtual machine, very laggy and slow!
 Moved VM services, had to clone github repo and fix errors with porting.
 SIGBART missing components
 View overlay was blocking the Nav bar!
-fixing readme gif link
+fixing readme gif link again
+
 ## License
 
 Copyright [2018] [Leanna Chisholm]
