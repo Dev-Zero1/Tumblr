@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5Ad-KR-sbo">
-                                <rect key="frame" x="0.0" y="27" width="375" height="640"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" red="0.55782096877634091" green="0.59504513991692864" blue="0.96113989637305697" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -40,6 +40,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="img" destination="PMz-I0-ILB" id="SD0-qT-X9n"/>
+                                            <segue destination="rFH-WO-Xjq" kind="show" id="GaP-Mq-K6p"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -51,13 +52,11 @@
                     <navigationItem key="navigationItem" id="2Rp-cG-tRU"/>
                     <connections>
                         <outlet property="tableView" destination="5Ad-KR-sbo" id="dSe-Ry-vqg"/>
-                        <segue destination="uFf-WY-i1m" kind="show" identifier="showDetails" id="ERS-5q-iC3"/>
-                        <segue destination="rFH-WO-Xjq" kind="show" id="wf9-vV-AYr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4170" y="-318"/>
+            <point key="canvasLocation" x="-4170.3999999999996" y="-318.89055472263868"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Aws-7F-X3Q">
@@ -96,32 +95,12 @@
                     <navigationItem key="navigationItem" id="FqH-ON-NrG"/>
                     <connections>
                         <outlet property="photoIMG" destination="v3F-g2-IUe" id="0gl-BO-k9j"/>
+                        <outlet property="view" destination="6sx-cs-esh" id="3i0-pq-Hxi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gqH-7S-hbB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3231.1999999999998" y="422.33883058470769"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="9Db-Ob-xj5">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uFf-WY-i1m" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="E1K-IS-BEw">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="rFH-WO-Xjq" kind="relationship" relationship="rootViewController" id="zL2-el-riC"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WZk-aw-Two" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4170.3999999999996" y="422.33883058470769"/>
+            <point key="canvasLocation" x="-4170" y="443"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="wf9-vV-AYr"/>
-    </inferredMetricsTieBreakers>
 </document>
