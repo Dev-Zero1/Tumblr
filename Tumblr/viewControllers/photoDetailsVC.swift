@@ -18,14 +18,8 @@ class photoDetailsVC: UIViewController {
     
      override func viewDidLoad() {
         super.viewDidLoad()
-        
-
 
 
         photoIMG.af_setImage(withURL: url!)
     }
-    
- 
-   
-
 }

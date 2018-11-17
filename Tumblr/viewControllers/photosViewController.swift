@@ -72,7 +72,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "photoCell", for: indexPath) as! photoCellTableViewCell
         let post = posts[indexPath.row]
         
-        // let photos = post["photos"] as! [[String: Any]]
+        
         
         // photos is NOT nil, we can use it!
         if let photos = post["photos"] as? [[String: Any]]{
@@ -102,10 +102,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
             let url = URL(string: urlString)
             
             vc.url = url
-            
         }
-        
-        
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
