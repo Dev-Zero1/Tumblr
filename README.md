@@ -1,4 +1,4 @@
-
+ 
 # Lab 1 - *Tumblr
 
 **Tumblr** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
@@ -31,7 +31,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/ES7wHgK' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/hBi4scj.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -86,7 +86,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/ES7wHgK' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src=' https://i.imgur.com/hBi4scj.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -95,7 +95,6 @@ Working with virtual machine, very laggy and slow!
 Moved VM services, had to clone github repo and fix errors with porting.
 SIGBART missing components
 View overlay was blocking the Nav bar!
-fixing readme gif link again
 
 ## License
 
